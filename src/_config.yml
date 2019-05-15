@@ -1,0 +1,74 @@
+# ----
+# Site
+
+title: MDE Intelligence
+url: "https://mde-intelligence.github.io"
+baseurl:
+google_analytics_key:
+show_full_navigation: true
+
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: 1st Workshop on Artificial Intelligence and Model-driven Engineering
+author:
+  name:
+  email:
+  twitter: # twitter username without the @ symbol
+social:
+  name: MDE Intelligence
+  links:
+    - https://github.com/mde-intelligence
+
+# -----
+# Highlighter disable default
+highlighter: none
+
+# -----
+# Build
+
+permalink: pretty
+
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll/scholar
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
+collections:
+  docs:
+    title: Documentation
+    permalink: /:path/
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: default
+      _comments:
+        type: Marks the impact of this release
+
+# -----------
+# CloudCannon
+
+types:
+  - minor
+  - major
+
+#------------
+# Jekyll scholar
+scholar:
+  style: apa
