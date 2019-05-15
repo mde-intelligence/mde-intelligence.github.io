@@ -8,7 +8,7 @@ bundle exec jekyll build
 
 cd ../deploy/
 
-git clone -b master git@github.com:alxbrd/mde-intelligence.github.io.git master
+git clone -b master git@github.com:mde-intelligence/mde-intelligence.github.io.git master
 
 cd master/
 
