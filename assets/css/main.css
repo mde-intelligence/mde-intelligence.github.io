@@ -2028,7 +2028,7 @@ input, select, textarea {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
-			justify-content: left;
+			justify-content: center;
 			padding: 3em 0 3em 0;
 			overflow: hidden;
 			text-align: justify;
@@ -2200,6 +2200,7 @@ input, select, textarea {
 					-webkit-transform: none;
 					-ms-transform: none;
 					transform: none;
+					text-align: justify;
 				}
 
 			.main.style3 {
