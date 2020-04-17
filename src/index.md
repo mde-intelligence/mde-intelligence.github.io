@@ -1,6 +1,6 @@
 ---
 title: MDE Intelligence
-subtitle: 1st Workshop on Artificial Intelligence and Model-driven Engineering
+subtitle: 2nd Workshop on Artificial Intelligence and Model-driven Engineering
 ---
 
 The MDE Intelligence workshop is co-located with the [IEEE/ACM 22nd International Conference on Model Driven Engineering Languages and Systems (MODELS)](http://modelsconference.org/).
