@@ -37,42 +37,41 @@ ol, ul {
 	list-style: none;
 }
 			
-			.nav > li {
-				float:left;
+.nav > li {
+	float:left;
+}
+	
+.nav li a {
+	color: inherit;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+		
+.nav li a:hover {
+	background-color: none; // #FFFFFF; 
+}
 
-			}
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+	background-color: #FFFFFF;
+	opacity: 0.95
+}
+		
+.nav li:hover > ul {
+	display:block;
+}
 			
-			.nav li a {
-				color: inherit;
-				text-decoration:none;
-				padding:10px 12px;
-				display:block;
-			}
-			
-			.nav li a:hover {
-				background-color: none; // #FFFFFF; 
-			}
-			
-			.nav li ul {
-				display:none;
-				position:absolute;
-				min-width:140px;
-				background-color: #FFFFFF;
-				opacity: 0.95
-			}
-			
-			.nav li:hover > ul {
-				display:block;
-			}
-			
-			.nav li ul li {
-				position:relative;
-			}
-			
-			.nav li ul li ul {
-				right:-140px;
-				top:0px;
-			}
+.nav li ul li {
+	position:relative;
+}
+		
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}
 
 blockquote, q {
 	quotes: none;
@@ -2029,9 +2028,10 @@ input, select, textarea {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
-			justify-content: center;
+			justify-content: left;
 			padding: 3em 0 3em 0;
 			overflow: hidden;
+			text-align: justify;
 		}
 
 			.main.style2 > .content {
