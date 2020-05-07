@@ -688,6 +688,27 @@ input, select, textarea {
 				}
 
 		}
+		
+	.transparent-box {
+		background-color: black;
+		color: #39454b;
+		padding: 2em;
+		opacity: 0.5;
+		color: white
+	}
+	
+	.box > :last-child {
+			margin-bottom: 0;
+		}
+	
+	@media screen and (max-width: 736px) {
+
+			.transparent-box {
+				padding: 1em;
+			}
+	}
+		
+		
 
 /* Button */
 
@@ -2311,7 +2332,7 @@ input, select, textarea {
 /* Intro */
 
 	.intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background: url("images/overlay.png"), url("../../images/lights.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
