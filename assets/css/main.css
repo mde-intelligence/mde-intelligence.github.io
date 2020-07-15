@@ -2522,3 +2522,6 @@ input, select, textarea {
 			}
 
 		}
+  .text-crossout { 
+	text-decoration: line-through;
+  }
