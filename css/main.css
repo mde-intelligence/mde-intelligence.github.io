@@ -1188,3 +1188,12 @@ img {
 .cms-editor-active .editor-link {
   display: block; }
   
+.column1 {
+  float: left;
+  width: 75%;
+}
+  
+.column2 {
+  float: left;
+  width: 25%;
+}

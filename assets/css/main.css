@@ -2525,3 +2525,33 @@ input, select, textarea {
   .text-crossout { 
 	text-decoration: line-through;
   }
+
+
+.header-list {
+	list-style: disc;
+	padding-left:1rem;
+}
+
+.header-side-img {
+	float: right;
+	width: 100%;
+	padding-left: 0.5rem;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.columns {
+	max-width: 100%;
+	display: flex;
+}
+	.columns > .column.is-one-quarter {
+		max-width: 25%;
+	}
+	.columns > .column.is-three-quarters {
+		max-width: 75%;
+	}
+
+	.columns > .column.align-self-center {
+		display: flex;
+		align-self: center;
+	}
