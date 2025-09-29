@@ -2534,11 +2534,12 @@ input, select, textarea {
 }
 
 .header-side-img {
-	float: right;
+	float: center;
 	width: 100%;
-	padding-left: 0.5rem;
-	margin-top: auto;
-	margin-bottom: auto;
+	height: 200%;
+	padding-right: 0.5rem;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 
 .columns {

@@ -2534,9 +2534,9 @@ input, select, textarea {
 }
 
 .header-side-img {
-	float: right;
-	width: 100%;
-	padding-left: 0.5rem;
+	float: center;
+	width: 100%;	
+	padding-right: 20px;
 	margin-top: auto;
 	margin-bottom: auto;
 }
@@ -2546,7 +2546,7 @@ input, select, textarea {
 	display: flex;
 }
 	.columns > .column.is-one-quarter {
-		max-width: 25%;
+		max-width: 15%;
 	}
 	.columns > .column.is-three-quarters {
 		max-width: 75%;
