@@ -2295,19 +2295,8 @@ input, select, textarea {
 					background-image: url("images/dark-arrow.svg");
 				}
 
-		body.is-touch .main {
-			background-attachment: scroll !important;
-		}
 
-		@media screen and (max-width: 1920px) {
-
-			.main.style2 .content {
-				width: 95%;
-			}
-
-		}
-
-		@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 1920px) {
 
 			.main.style2 .content {
 				width: 95%;
