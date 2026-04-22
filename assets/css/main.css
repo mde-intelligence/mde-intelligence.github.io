@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url("fontawesome-all.min.css");
 
 /*
@@ -49,7 +50,7 @@ ol, ul {
 }
 		
 .nav li a:hover {
-	background-color: none; // #FFFFFF; 
+	background-color: none; 
 }
 
 .nav li ul {
@@ -536,10 +537,10 @@ input, select, textarea {
 /* Type */
 
 	body, input, textarea, select {
-		font-family: "Source Sans Pro", "sans-serif";
+		font-family: "Noto Sans", "sans-serif";
 		font-weight: 300;
-		font-size: 18pt;
-		line-height: 1.75em;
+		font-size: 16pt;
+		line-height: 1.5em;
 		color: #39454b;
 		letter-spacing: 0.025em;
 	}
@@ -597,15 +598,18 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2.25em;
+		font-size: 1.9em;
 		line-height: 1.25em;
 		letter-spacing: -0.05em;
 	}
 	
 	h3 {
-		font-size: 1.5em;
+		font-size: 1.3em;
 		line-height: 1.25em;
 		letter-spacing: -0.05em;
+	}
+
+	h4 {
 	}
 
 	@media screen and (max-width: 736px) {
@@ -647,7 +651,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-top: solid 1px #e5e6e7;
+		border-top: solid 1px #058af0;
 	}
 
 	blockquote {
@@ -663,7 +667,12 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #ffffff;
+		background-color: rgba(255, 255, 255, 0.85);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		background-clip: padding-box;
+		border: 1px solid rgba(255, 255, 255, 0.55);
+		box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
 		color: #39454b;
 		padding: 2em;
 	}
@@ -2145,8 +2154,8 @@ input, select, textarea {
 		}
 
 			.main.style1 h2 {
-				font-size: 4.25em;
-				line-height: 1em;
+				font-size: 3em;
+				line-height: 1.3em;
 			}
 
 			.main.style1 > .content {
@@ -2457,7 +2466,7 @@ input, select, textarea {
 /* Intro */
 
 	.intro {
-		background: url("images/overlay.png"), url("../../images/lights.jpg");
+		background: url("images/overlay2.png"), url("../../images/AI_ocean.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2528,9 +2537,28 @@ input, select, textarea {
   }
 
 
+.content ul,
+.content ol {
+	list-style: disc;
+	list-style-position: outside;
+	padding-left: 2rem;
+	margin-bottom: 1rem;
+}
+
+.content ul li,
+.content ol li {
+	margin-bottom: 0.65rem;
+}
+
+.content ul li::marker,
+.content ol li::marker,
+.header-list li::marker {
+	color: #058af0;
+}
+
 .header-list {
 	list-style: disc;
-	padding-left:1rem;
+	padding-left: 2rem;
 }
 
 .header-side-img {
