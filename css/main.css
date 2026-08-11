@@ -1159,6 +1159,11 @@ blockquote {
       margin-left: 0;
       margin-right: 0; } }
 
+.header-list .authors {
+    font-size: 0.9em;
+    color: #666;
+}
+
 img {
   max-width: 100%;
   height: auto; }
