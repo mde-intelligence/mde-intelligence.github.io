@@ -1,3 +1,1126 @@
+
+Eingefügter Text.txtDokument
+
+This here is an HTML index for a workshop homepage
+
+Add the Keynote Abstract below the Lighning talks - 
+
+Also "ACCEPTED LIGHTNING TALKS" seems the wrong heading - fix that
+
+Here is the abstract: 
+MDE in the AI Era: The Next Generation
+
+
+       
+       Abstract: Recent advances in generative artificial intelligence,       especially large language models (LLMs), are reshaping software       development. Coding assistants and, more recently, agentic       programming systems such as Claude Code and Codex promise       substantial productivity improvements and new opportunities for       automation. As these tools gain traction, what role remains for       model-driven engineering (MDE) in the current software development       landscape?
+       
+       In this talk, I argue that MDE has a valuable role to play in       AI-assisted software development. Both approaches share an       ambition: increase productivity by making code a by-product of a       development process driven by higher-level specifications.       AI-assisted development expresses intent through natural language,       while MDE captures it via models. However, their approaches to       automation differ drastically. LLM-based code generation is       probabilistic, while traditional MDE relies on explicitly defined,       deterministic transformations that can be complemented by formal       verification to establish guarantees about the generated software.
+       
+       The talk will explore how these approaches can be combined for       mutual benefit. First, models can serve as intermediate       representations: instead of generating code directly, AI agents       can produce models that are validated and transformed into code       using established MDE techniques. This combination brings together       the flexibility of generative AI and the precision and control of       MDE automation. Second, MDE principles and tools can strengthen       emerging agentic practices such as spec-driven development, making       specs more precise, analysable, and cognitive-effective. Together,       these directions point towards a next generation of MDE, in which       AI agents and model-driven techniques work together to bridge       human intent and reliable software.
+       
+       Bio: Juan de Lara is a Full Professor in the Department of       Computer Science at the Universidad Autónoma de Madrid, Spain,       where he co-leads the Modelling and Software Engineering Research       Group (
+
+) with Esther Guerra. His research interests       include automated software engineering, model-driven and low-code       development, domain-specific languages and language engineering,       conversational agents, and AI-assisted development. His work has       resulted in numerous research tools, including Asymob, AToM3,       metaDepth, merlin, and Gotten, and more than 270 publications in       international journals and conferences. He has served as programme       committee co-chair for MODELS, SLE, ICGT, ICMT, and FASE, and is a       member of the editorial board of Software and Systems Modeling       (SoSyM, Springer). He has also co-organised workshops on flexible       modelling, multi-level modelling, and low-code development.
+…
+
+I changed the heading to Lightning Talks and added Juan de Lara’s keynote abstract and bio directly below the talk list.
+Eingefügter Text.txtDokument
+
+Check the result here: 
+
+https://mde-intelligence.github.io/
+The keynote is a tab-stop to much to the right.
+
+Fixed. An unclosed list above the keynote was causing the extra indentation. The keynote heading now sits at the same level as “Lightning Talks” in the updated source.
+Eingefügter Text.txtDokument
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license
+	(html5up.net/license)
+-->
+<html>
+<head>
+	<title>MDE Intelligence</title>
+	<meta charset="utf-8" />
+	<meta
+		name="viewport"
+		content="width=device-width, initial-scale=1, user-scalable=no"
+	/>
+
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+
+	<style>
+		.program-time {
+			white-space: nowrap;
+		}
+
+		.program-session-title {
+			padding-left: 1.5em;
+		}
+
+		.program-paper {
+			margin-bottom: 1.1em;
+		}
+
+		.program-title {
+			display: inline-block;
+			font-weight: 700;
+			line-height: 1.35;
+			margin-top: 0.15em;
+		}
+
+		.authors {
+			display: inline-block;
+			margin-top: 0.15em;
+		}
+	</style>
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<h1>MDE Intelligence</h1>
+
+		<nav>
+			<ul class="nav">
+				<li>
+					<a href="#theme">Theme &amp; Goals</a>
+				</li>
+
+				<li>
+					<a href="#cfp">Calls</a>
+					<ul>
+						<li><a href="#cfp">Call for Papers</a></li>
+						<li><a href="#dates">Important Dates</a></li>
+						<li><a href="#cflt">Call for lightning talks</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="#program">Program</a>
+				</li>
+
+				<li>
+					<a href="#committees">Committees</a>
+				</li>
+
+				<li>
+					<a href="#previous">Previous Editions</a>
+					<ul>
+						<li><a href="2025/index2025.html">Edition 2025</a></li>
+						<li><a href="2024/index2024.html">Edition 2024</a></li>
+						<li><a href="2023/index2023.html">Edition 2023</a></li>
+						<li><a href="2022/index2022.html">Edition 2022</a></li>
+						<li><a href="2021/index2021.html">Edition 2021</a></li>
+						<li><a href="2020/index2020.html">Edition 2020</a></li>
+						<li><a href="index2019.html">Edition 2019</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="#contact">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<!-- Intro -->
+	<section id="intro" class="intro main style1 dark fullscreen">
+		<div class="content">
+			<header>
+				<h2>MDE Intelligence</h2>
+			</header>
+
+			<p>
+				8th Workshop on Artificial Intelligence and Model-driven Engineering
+				<br />
+				Co-located with
+				<a
+					href="https://conf.researchr.org/home/models-2026"
+					target="_blank"
+					rel="noopener noreferrer"
+				>MODELS</a>.
+				Monday, October 5th 2026, Malaga, Spain.
+			</p>
+
+			<h4>
+				<a
+					href="https://twitter.com/search?q=%23mdeintelligence&src=typed_query"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="icon brands fa-twitter"
+				>
+					#mdeintelligence
+					<span class="label">X</span>
+				</a>
+			</h4>
+
+			<footer>
+				<a href="#theme" class="button style2 down">More</a>
+			</footer>
+		</div>
+	</section>
+
+
+	<!-- Theme & Goals -->
+	<section id="theme" class="intro main style2 center dark fullscreen">
+		<div class="content box style2">
+
+			<header>
+				<h2>Theme &amp; Goals</h2>
+			</header>
+
+			<p>
+				Artificial Intelligence (AI) has become part of everyone's life.
+				It is used by companies to exploit the information they collect to
+				improve the products and/or services they offer and, wanted or
+				unwanted, it is present in almost every device around us. Lately,
+				AI is also impacting all aspects of the system and software
+				development lifecycle, from their upfront specification to their
+				design, testing, deployment and maintenance, with the main goal of
+				helping engineers produce systems and software faster and with
+				better quality while being able to handle ever more complex
+				systems and software.
+			</p>
+
+			<p>
+				There is no doubt that MDE has been a means to tame until now part
+				of this complexity. However, its adoption by industry still relies
+				on their capacity to manage the underlying methodological changes,
+				including among other things the adoption of new tools. To go one
+				step further, we believe there is a clear need for AI-empowered
+				MDE, which will push the limits of "classic" MDE and provide the
+				right techniques to develop the next generation of highly complex
+				model-based system and software systems engineers will have to
+				design tomorrow.
+			</p>
+
+			<p>
+				This workshop provides a forum to discuss, study and explore the
+				opportunities and challenges raised by the integration of AI and
+				MDE.
+			</p>
+
+			<p>
+				We would like to address topics such as how to choose, evaluate
+				and adapt AI techniques to Model-Driven Engineering as a way to
+				improve current system and software modeling and generation
+				processes in order to increase the benefits and reduce the costs
+				of adopting MDE. We believe that AI artifacts will empower MDE
+				tools and hence boost the advantages and adoption of MDE at the
+				industry level.
+			</p>
+
+			<p>
+				At the same time, AI is software &mdash; and complex software, in
+				fact. We therefore also believe that such an AI-powered MDE
+				approach will benefit the design of AI artifacts themselves,
+				especially when facing the challenge of designing trustworthy AI
+				software.
+			</p>
+
+			<p>
+				Last but not least, although AI is the most popular branch of
+				computer science to create and simulate intelligence, we also
+				believe that any kind of technique that provides human cognitive
+				capabilities and helps create intelligent software is within the
+				scope of this workshop. Examples include knowledge representation
+				techniques and ontologies that can be useful on their own or
+				support other kinds of AI techniques.
+			</p>
+
+			<p>
+				This year, MDE Intelligence adopts the special theme
+				<b>&ldquo;Assessing the Performance of MDE Intelligence Approaches&rdquo;</b>,
+				inviting contributions that advance systematic, rigorous, and
+				standardized evaluation practices for intelligent modeling
+				systems.
+			</p>
+
+		</div>
+	</section>
+
+
+	<!-- Call for Papers -->
+	<section id="cfp" class="intro main style2 center dark fullscreen">
+		<div class="content box style2">
+
+			<header>
+				<h2>Call for Papers</h2>
+			</header>
+
+			<p>
+				Model-driven engineering (MDE) and artificial intelligence (AI)
+				are two separate fields in computer science that can clearly
+				benefit from cross-pollination and collaboration. There are at
+				least two ways in which such integration &mdash; which we call
+				MDE Intelligence &mdash; can manifest:
+			</p>
+
+			<h4><em>Artificial Intelligence for MDE</em></h4>
+
+			<p>
+				MDE can benefit from integrating AI concepts and ideas to increase
+				its power: flexibility, user experience, quality, etc. For
+				example, using model transformations through search-based
+				approaches, or by increasing the ability to abstract from
+				partially formed, manual sketches into fully-shaped and formally
+				specified meta-models and editors.
+			</p>
+
+			<h4><em>MDE for Artificial Intelligence</em></h4>
+
+			<p>
+				AI is software, and as such, it can benefit from integrating
+				concepts and ideas from MDE that have been proven to improve
+				software development. For example, using domain-specific
+				languages allows domain experts to directly express and manipulate
+				their problems while providing an auditable conversion pipeline.
+				Together this can improve trust in and safety of AI technologies.
+				Similarly, MDE technologies can contribute to the goal of fair and
+				explainable AI.
+			</p>
+
+			<hr />
+
+			<h3 id="topics">TOPICS</h3>
+
+			<p>
+				Topics of interest for the workshop include, but are not limited to:
+			</p>
+
+			<h4>AI for MDE</h4>
+
+			<ul class="header-list">
+				<li>
+					Application of foundation models (FM), large language models
+					(LLMs), small language models (SLMs), Generative AI, and machine
+					learning to modelling problems;
+				</li>
+				<li>
+					Enhanced prompt engineering techniques for generating reliable
+					modeling artifacts;
+				</li>
+				<li>
+					Machine learning and Generative AI for (meta-heuristic) search,
+					(meta)models, concrete syntax, model transformations, etc.;
+				</li>
+				<li>
+					AI planning applied to (meta-)modelling and model management;
+				</li>
+				<li>
+					AI-supported modelling (e.g., bots, recommenders, UI adaptation,
+					etc.);
+				</li>
+				<li>
+					Model inferencers and automatic, dataset-based model generators;
+				</li>
+				<li>Self-adapting code generators;</li>
+				<li>
+					Semantic reasoning, knowledge graphs, or domain-specific
+					ontologies;
+				</li>
+				<li>AI-supported model-based digital twins;</li>
+				<li>Probabilistic, descriptive or predictive models;</li>
+				<li>
+					AI techniques for data, process, and model mining and
+					categorisation;
+				</li>
+				<li>
+					Natural language processing applied to modelling, including
+					Large Language Models and Generative AI;
+				</li>
+				<li>Reinforcement learning to optimize modelling tasks;</li>
+				<li>
+					Generation of synthetic yet reliable modeling artifacts
+					leveraging AI, ML, and foundation models;
+				</li>
+				<li>Data quality and privacy issues in AI for MDE;</li>
+				<li>
+					Ethical aspects on the application of AI to modeling
+					(responsibility, fairness, bias, etc.).
+				</li>
+			</ul>
+
+
+			<h4>MDE for AI</h4>
+
+			<ul class="header-list">
+				<li>
+					Domain-specific modelling approaches for AI planning, machine
+					learning, agent-based modelling, etc.;
+				</li>
+				<li>Model-driven processes for AI system development;</li>
+				<li>MDE techniques for explainable and fair AI;</li>
+				<li>Using models for knowledge representation;</li>
+				<li>Code generation for AI libraries and platforms;</li>
+				<li>Architectural languages for AI-enhanced systems;</li>
+				<li>MDE for federated learning;</li>
+				<li>Model-based testing/analysis of AI components;</li>
+				<li>MDE techniques for prompt engineering.</li>
+			</ul>
+
+
+			<h4>General Topics in MDE Intelligence</h4>
+
+			<ul class="header-list">
+				<li>AI in teaching MDE;</li>
+				<li>AI for MDE UX;</li>
+				<li>Tools, frameworks, modeling standards;</li>
+				<li>Encoding conceptual models for AI;</li>
+				<li>Datasets for MDE Intelligence;</li>
+				<li>Experience reports, case studies, and empirical studies;</li>
+				<li>Future challenges for MDE Intelligence.</li>
+			</ul>
+
+
+			<hr />
+
+			<h3 id="submissions">SUBMISSIONS</h3>
+
+			<p>
+				Submissions must adhere to the
+				<a
+					href="https://www.acm.org/publications/proceedings-template"
+					target="_blank"
+					rel="noopener noreferrer"
+				>ACM formatting instructions</a>.
+			</p>
+
+			<p>We ask for two types of contributions:</p>
+
+			<ul style="list-style: none;">
+				<li>
+					<span style="color: #058af0;">1)</span>
+					Research papers: 10 pages
+				</li>
+				<li>
+					<span style="color: #058af0;">2)</span>
+					Extended abstracts: 5 pages
+				</li>
+			</ul>
+
+			<p>
+				Page limits include references. Submissions must be uploaded through
+				<a
+					href="https://easychair.org/conferences/?conf=mdeintelligence2026"
+					target="_blank"
+					rel="noopener noreferrer"
+				>EasyChair</a>.
+			</p>
+
+			<p>
+				All submissions will follow a single-blind review process where
+				each paper will be reviewed by at least three members of the
+				program committee. They will value the relevance and interest for
+				discussions that will take place at the workshop. Accepted papers
+				will be published in the joint workshop proceedings published by
+				ACM.
+			</p>
+
+			<p>
+				Papers submitted to MDE Intelligence must not be under review or
+				submitted for review elsewhere whilst under consideration for MDE
+				Intelligence. Contravention of this concurrent submission policy,
+				as stated explicitly by ACM
+				<a
+					href="https://www.acm.org/publications/policies/simultaneous-submissions"
+					target="_blank"
+					rel="noopener noreferrer"
+				>here</a>,
+				will be deemed as a serious breach of scientific ethics, and
+				appropriate action will be taken in all such cases.
+			</p>
+
+			<p>
+				<span style="color: red; font-style: italic;">
+					Important update on ACM's new Open Access publishing model for
+					2026 ACM Conferences!
+				</span>
+				<br />
+				Starting January 1, 2026, ACM has fully transitioned to Open Access.
+				All ACM publications, including those from ACM-sponsored
+				conferences, will be 100% Open Access.
+				<a
+					href="https://conf.researchr.org/track/models-2026/models-2026-research-papers#Foundations-Track"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					See the MODELS 2026 information on Open Access.
+				</a>
+				<br />
+				Note for this workshop: Extended abstracts will be covered by a
+				specific agreement with MODELS that will not require the payment of
+				any publication fee.
+			</p>
+
+
+			<h3 id="dates">IMPORTANT DATES</h3>
+
+			<ul style="list-style: none;">
+				<li>
+					<span style="display: inline-block; width: 300px;">
+						Abstract submission:
+					</span>
+					June 26, 2026
+				</li>
+
+				<li>
+					<span style="display: inline-block; width: 300px;">
+						Paper submission:
+					</span>
+					July 3, 2026
+				</li>
+
+				<li>
+					<span style="display: inline-block; width: 300px;">
+						Notification:
+					</span>
+					July 31, 2026
+				</li>
+
+				<li>
+					<span style="display: inline-block; width: 300px;">
+						Camera-ready:
+					</span>
+					August 14, 2026
+				</li>
+
+				<li>
+					<span style="display: inline-block; width: 300px;">
+						Workshop:
+					</span>
+					October 4&ndash;6, 2026
+				</li>
+			</ul>
+
+			<h3 id="cflt">CALL FOR LIGHTNING TALKS</h3>
+					
+				<p>During the workshop, there will be a session of lightning talks around the topics that fall under the scope of the workshop.</p>
+				
+				<p>We believe that lightning talks are a great opportunity for presenters to promote their work, to receive timely and helpful feedback, and to find new collaborations. At the same, these talks will be beneficial for the workshop participants as they may broaden their knowledge and they will be able to actively participate and engage in the discussion around the presented topics.</p>
+				
+				<p>If you are interested in presenting a lightning talk, please follow the instructions below.</p>
+				
+				<p>Presenters will have 2-3 minutes to communicate their ideas and they can choose to use up to one slide.</p>
+				
+				<p>We encourage the submission of proposals around the following topics:
+				<ul class="header-list">
+					<li>Already published works that are relevant for the workshop audience;</li>
+					<li>Discussion of personal visions and ideas;</li>
+					<li>Provocative statements about the past, present, or future of the field;</li>
+					<li>Unsolved challenges in academia, industry, open source communities, etc.</li>
+				<ul></p>
+				
+				<h4 id="dates">PROPOSAL SUBMISSION</h4>
+				
+				<p>Proposals must be submitted via email to <a href="mailto:mdeintelligence2026@easychair.org">mdeintelligence2026@easychair.org</a>. The deadline for submitting proposals is September 30th, 2026.</p>
+
+			<h3 id="lightning-talks">Lightning Talks</h3>
+			<ul class="header-list">
+				<li>Adaptation Abstractions for Audience-aware LLM Adaptation, German Silvestre Anorve Pons and Nelly Bencomo</li>
+			</ul>
+
+			<h3 id="keynote">Keynote: MDE in the AI Era: The Next Generation</h3>
+			<p><strong>Juan de Lara</strong></p>
+			<h4>Abstract</h4>
+			<p>Recent advances in generative artificial intelligence, especially large language models (LLMs), are reshaping software development. Coding assistants and, more recently, agentic programming systems such as Claude Code and Codex promise substantial productivity improvements and new opportunities for automation. As these tools gain traction, what role remains for model-driven engineering (MDE) in the current software development landscape?</p>
+			<p>In this talk, I argue that MDE has a valuable role to play in AI-assisted software development. Both approaches share an ambition: increase productivity by making code a by-product of a development process driven by higher-level specifications. AI-assisted development expresses intent through natural language, while MDE captures it via models. However, their approaches to automation differ drastically. LLM-based code generation is probabilistic, while traditional MDE relies on explicitly defined, deterministic transformations that can be complemented by formal verification to establish guarantees about the generated software.</p>
+			<p>The talk will explore how these approaches can be combined for mutual benefit. First, models can serve as intermediate representations: instead of generating code directly, AI agents can produce models that are validated and transformed into code using established MDE techniques. This combination brings together the flexibility of generative AI and the precision and control of MDE automation. Second, MDE principles and tools can strengthen emerging agentic practices such as spec-driven development, making specs more precise, analysable, and cognitive-effective. Together, these directions point towards a next generation of MDE, in which AI agents and model-driven techniques work together to bridge human intent and reliable software.</p>
+			<h4>Bio</h4>
+			<p>Juan de Lara is a Full Professor in the Department of Computer Science at the Universidad Autónoma de Madrid, Spain, where he co-leads the Modelling and Software Engineering Research Group (<a href="http://miso.es">miso.es</a>) with Esther Guerra. His research interests include automated software engineering, model-driven and low-code development, domain-specific languages and language engineering, conversational agents, and AI-assisted development. His work has resulted in numerous research tools, including Asymob, AToM3, metaDepth, merlin, and Gotten, and more than 270 publications in international journals and conferences. He has served as programme committee co-chair for MODELS, SLE, ICGT, ICMT, and FASE, and is a member of the editorial board of Software and Systems Modeling (SoSyM, Springer). He has also co-organised workshops on flexible modelling, multi-level modelling, and low-code development.</p>
+		</div>
+	</section>
+
+
+	<!-- Program -->
+	<section class="intro main style2 center dark fullscreen">
+		<div class="content box style2">
+
+			<header>
+				<h2 id="program">Program</h2>
+				<h4>Full-Day Workshop Schedule, Monday, October 5th, 2026</h4>
+			</header>
+
+			<table>
+
+				<!-- Session 1 -->
+				<tr>
+					<th class="program-time">
+						<b>09:15 &ndash; 10:30</b>
+					</th>
+
+					<th class="program-session-title">
+						<b>Session 1: Benchmarks and Evaluators for MDE Intelligence</b>
+						<br />
+						<em>Special Theme</em>
+					</th>
+				</tr>
+
+				<tr>
+					<th></th>
+
+					<th class="program-session-title">
+						<ul class="header-list">
+
+							<li class="program-paper">
+								<span class="program-time">
+									<b>09:15 &ndash; 09:30</b>
+								</span>
+								<br />
+								<span class="program-title">
+									Workshop Kickoff / Organization
+								</span>
+							</li>
+
+							<li class="program-paper">
+								<span class="program-time">
+									<b>09:30 &ndash; 09:50</b>
+								</span>
+								<br />
+								<span class="program-title">
+									How Well Do LLMs Suggest Model-to-Model Mappings?
+									A Multi-Provider Benchmark on Hand-Written ATL Transformations
+								</span>
+								<br />
+								<span class="authors">
+									Antonio Bucchiarone, Juri Di Rocco and Alfonso Pierantonio
+								</span>
+							</li>
+
+							<li class="program-paper">
+								<span class="program-time">
+									<b>09:50 &ndash; 10:10</b>
+								</span>
+								<br />
+								<span class="program-title">
+									Evaluating Embedding Models and Preprocessing for
+									Retrieval of MDE Elements in RAG Systems
+								</span>
+								<br />
+								<span class="authors">
+									Julian Roßkothen, David Inca Pilco, Tobias Hey,
+									Clemens Reichmann and Ralf Reussner
+								</span>
+							</li>
+
+							<li class="program-paper">
+								<span class="program-time">
+									<b>10:10 &ndash; 10:30</b>
+								</span>
+								<br />
+								<span class="program-title">
+									On the Non-Interchangeability of Deterministic and
+									LLM-Based UML Evaluators
+								</span>
+								<br />
+								<span class="authors">
+									Giacomo Garaccione, Riccardo Coppola and Luca Ardito
+								</span>
+							</li>
+
+						</ul>
+					</th>
+				</tr>
+
+
+				<!-- Break -->
+				<tr>
+					<th class="program-time">
+						<b>10:30 &ndash; 11:00</b>
+					</th>
+					<th class="program-session-title">
+						<b>Break</b>
+					</th>
+				</tr>
+
+
+				<!-- Session 2 -->
+				<tr>
+					<th class="program-time">
+						<b>11:00 &ndash; 12:45</b>
+					</th>
+					<th class="program-session-title">
+						<b>Session 2: Generating Valid and Conformant Models</b>
+					</th>
+				</tr>
+
+				<tr>
+					<th></th>
+
+					<th class="program-session-title">
+						<ul class="header-list">
+
+							<li class="program-paper">
+								<span class="program-time">
+									<b>11:00 &ndash; 11:30</b>
+								</span>
+								<br />
+								<span class="program-title">
+									Keynote / Invited Talk
+								</span>
+							</li>
+
+							<li class="program-paper">
+								<span class="program-time">
+									<b>11:30 &ndash; 11:50</b>
+								</span>
+								<br />
+								<span class="program-title">
+									Reliable Generation of Feature Models in the Universal
+									Variability Language using Constrained LLMs
+								</span>
+								<br />
+								<span class="authors">
+									Johannes Stümpfle, Fethi Tunc, Nasser Jazdi and Michael Weyrich
+								</span>
+							</li>
+
+							<li class="program-paper">
+								<span class="program-time">
+									<b>11:50 &ndash; 12:10</b>
+								</span>
+								<br />
+								<span class="program-title">
+									Privacy Policy Modeling using Metamodel-Guided LLMs
+								</span>
+								<br />
+								<span class="authors">
+									Faezeh Siavashi, Kyanna Dagenais, Ayush Patel and Richard Paige
+								</span>
+							</li>
+
+							<li class="program-paper">
+								<span class="program-time">
+									<b>12:10 &ndash; 12:30</b>
+								</span>
+								<br />
+								<span class="program-title">
+									From Informal to Conformant Models:
+									Benchmarking Vision-Language Models for UML Generation
+								</span>
+								<br />
+								<span class="authors">
+									Cecilia Eklund, Tom Jonsson, Riccardo Rubei and Alessio Bucaioni
+								</span>
+							</li>
+
+							<li class="program-paper">
+								<span class="program-time">
+									<b>12:30 &ndash; 12:45</b>
+								</span>
+								<br />
+								<span class="program-title">
+									Assessing the Impact of MCP-Augmented LLMs in MDE Tasks:
+									A Quantitative Comparative Evaluation Framework on Fault Tree
+									Modeling and Analysis Through Petri Nets
+								</span>
+								<br />
+								<em>Extended Abstract</em>
+								<br />
+								<span class="authors">
+									Filippo Sciammacca, Niccolò Menghini, Nicolò Pollini,
+									Marco Becattini and Enrico Vicario
+								</span>
+							</li>
+
+						</ul>
+					</th>
+				</tr>
+
+
+				<!-- Lunch -->
+				<tr>
+					<th class="program-time">
+						<b>13:00 &ndash; 14:30</b>
+					</th>
+					<th class="program-session-title">
+						<b>Lunch Break</b>
+					</th>
+				</tr>
+
+
+				<!-- Session 3 -->
+				<tr>
+					<th class="program-time">
+						<b>14:30 &ndash; 15:45</b>
+					</th>
+					<th class="program-session-title">
+						<b>Session 3: Modeling AI Systems and Processes</b>
+						<br />
+						<em>MDE for AI</em>
+					</th>
+				</tr>
+
+				<tr>
+					<th></th>
+
+					<th class="program-session-title">
+						<ul class="header-list">
+
+							<li class="program-paper">
+								<span class="program-time">
+									<b>14:30 &ndash; 14:50</b>
+								</span>
+								<br />
+								<span class="program-title">
+									A Model-Driven Formalization of Prompt Patterns
+								</span>
+								<br />
+								<span class="authors">
+									Vennila Sooben and Eugene Syriani
+								</span>
+							</li>
+
+							<li class="program-paper">
+								<span class="program-time">
+									<b>14:50 &ndash; 15:10</b>
+								</span>
+								<br />
+								<span class="program-title">
+									KERKIS: a Modeling Language for Multi-Agent System
+									Interactions in AI-Native Software Engineering
+								</span>
+								<br />
+								<span class="authors">
+									Konsta Kalliokoski, François Christophe, Henri Kärkkäinen,
+									Iikka Hämäläinen, Md Mahade Hasan, Md Toufique Hasan,
+									Zheying Zhang, Pekka Abrahamsson and Tommi Mikkonen
+								</span>
+							</li>
+
+							<li class="program-paper">
+								<span class="program-time">
+									<b>15:10 &ndash; 15:25</b>
+								</span>
+								<br />
+								<span class="program-title">
+									On the Nature of AI Development Processes:
+									Between Recipes and Cooking, Bridging Static Models
+									and Dynamic Enactments
+								</span>
+								<br />
+								<em>Extended Abstract</em>
+								<br />
+								<span class="authors">
+									Razan Abualsaud, Hanh Nhi Tran and Ileana Ober
+								</span>
+							</li>
+
+							<li class="program-paper">
+								<span class="program-time">
+									<b>15:25 &ndash; 15:45</b>
+								</span>
+								<br />
+								<span class="program-title">
+									Beyond Syntax: Method-Compliant AI Assistance
+									for Low-Resource Modeling Languages
+								</span>
+								<br />
+								<span class="authors">
+									Sokhna Amar, Maged Elaasar and Sambit Bhattacharya
+								</span>
+							</li>
+
+						</ul>
+					</th>
+				</tr>
+
+
+				<!-- Break -->
+				<tr>
+					<th class="program-time">
+						<b>15:45 &ndash; 16:15</b>
+					</th>
+					<th class="program-session-title">
+						<b>Break</b>
+					</th>
+				</tr>
+
+
+				<!-- Session 4 -->
+				<tr>
+					<th class="program-time">
+						<b>16:15 &ndash; 17:30</b>
+					</th>
+					<th class="program-session-title">
+						<b>Session 4: Agentic and Tool-Augmented Modeling</b>
+					</th>
+				</tr>
+
+				<tr>
+					<th></th>
+
+					<th class="program-session-title">
+						<ul class="header-list">
+
+							<li class="program-paper">
+								<span class="program-time">
+									<b>16:15 &ndash; 16:30</b>
+								</span>
+								<br />
+								<span class="program-title">
+									MagicChat: An In-Tool AI Agent for Industrial
+									Model-Based Engineering in MagicDraw
+								</span>
+								<br />
+								<em>Extended Abstract</em>
+								<br />
+								<span class="authors">
+									Rohit Gupta, Nikolaus Regnat and Ambra Calà
+								</span>
+							</li>
+
+							<li class="program-paper">
+								<span class="program-time">
+									<b>16:30 &ndash; 16:45</b>
+								</span>
+								<br />
+								<span class="program-title">
+									An Agentic LLM-based Environment for Interactive
+									Domain Knowledge Elicitation and Metamodeling
+								</span>
+								<br />
+								<em>Extended Abstract</em>
+								<br />
+								<span class="authors">
+									Zakaria Hachm, Alfonso Pierantonio, Davide Di Ruscio,
+									Théo Le Calvar, Massimo Tisi and Hugo Bruneliere
+								</span>
+							</li>
+
+							<li class="program-paper">
+								<span class="program-time">
+									<b>16:45 &ndash; 17:00</b>
+								</span>
+								<br />
+								<span class="program-title">
+									From Code to Low-Code: An LLM-Driven Pipeline
+									for Lifting Code Clones into Reusable Abstractions
+								</span>
+								<br />
+								<em>Extended Abstract</em>
+								<br />
+								<span class="authors">
+									Raphael Zefferer, Bernhard Schenkenfelder and Stefan Wagner
+								</span>
+							</li>
+
+							<li class="program-paper">
+								<span class="program-time">
+									<b>17:00 &ndash; 17:30</b>
+								</span>
+								<br />
+								<span class="program-title">
+									Lightning Talks / Closing Words
+								</span>
+							</li>
+
+						</ul>
+					</th>
+				</tr>
+
+			</table>
+
+		</div>
+	</section>
+
+
+	<!-- Committees -->
+	<section id="committees" class="intro main style2 center dark fullscreen">
+		<div class="content box style2">
+
+			<header>
+				<h2>Committees</h2>
+			</header>
+
+			<h4 id="organization-committee">ORGANIZING COMMITTEE</h4>
+
+			<div class="gallery">
+
+				<article class="from-top">
+					<a
+						href="https://model-engineering.info/"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="image fit"
+					>
+						<img
+							src="images/db.jpg"
+							title="Dominik Bork"
+							alt="Dominik Bork"
+						/>
+					</a>
+
+					<a
+						href="https://model-engineering.info/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Dominik Bork
+					</a>
+
+					<br />
+					TU Wien, Austria
+					<br />
+
+					<a
+						href="https://twitter.com/BorkDominik"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="icon brands fa-twitter"
+					>
+						@BorkDominik
+						<span class="label">Twitter</span>
+					</a>
+				</article>
+
+
+				<article class="from-left">
+					<a
+						href="https://boqi-chen.xyz/"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="image fit"
+					>
+						<img
+							src="images/bc.jpg"
+							title="Boqi Chen"
+							alt="Boqi Chen"
+						/>
+					</a>
+
+					<a
+						href="https://boqi-chen.xyz/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Boqi Chen
+					</a>
+
+					<br />
+					University of Ottawa, Canada
+				</article>
+
+
+				<article class="from-right">
+					<a
+						href="https://www.se-rwth.de/staff/Lukas.Netz/"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="image fit"
+					>
+						<img
+							src="images/ln.jpg"
+							title="Lukas Netz"
+							alt="Lukas Netz"
+						/>
+					</a>
+
+					<a
+						href="https://www.se-rwth.de/staff/Lukas.Netz/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Lukas Netz
+					</a>
+
+					<br />
+					RWTH Aachen, Germany
+				</article>
+
+			</div>
+
+
+			<h4 id="program-committee">PROGRAM COMMITTEE</h4>
+
+			<ul>
+				<li>Syed Juned Ali (TU Wien, Austria)</li>
+				<li>Maryam Alshehhi (McGill University, Canada)</li>
+				<li>Colin Atkinson (University of Mannheim, Germany)</li>
+				<li>Aren A. Babikian (University of Toronto, Canada)</li>
+				<li>Antonio Bucchiarone (Università degli Studi dell'Aquila, Italy)</li>
+				<li>Thomas Buchmann (Hof University of Applied Sciences, Germany)</li>
+				<li>Robert Clarisó (Universitat Oberta de Catalunya, Spain)</li>
+				<li>Juan de Lara (Universidad Autónoma de Madrid, Spain)</li>
+				<li>Kevin Delcourt (IRIT, France)</li>
+				<li>Davide Di Ruscio (Università degli Studi dell'Aquila, Italy)</li>
+				<li>Mattia Fumagalli (Free University of Bozen-Bolzano, Italy)</li>
+				<li>Antonio Garmendia (Universidad Autónoma de Madrid, Spain)</li>
+				<li>Stefan Klikovits (Johannes Kepler University Linz, Austria)</li>
+				<li>Dimitris Kolovos (University of York, United Kingdom)</li>
+				<li>Jens Kosiol (Philipps-Universität Marburg, Germany)</li>
+				<li>Kevin Lano (King's College London, United Kingdom)</li>
+				<li>Ana Cristina Marcén (Universidad San Jorge, Spain)</li>
+				<li>Judith Michael (Universität Regensburg, Germany)</li>
+				<li>Gunter Mussbacher (McGill University, Canada)</li>
+				<li>Vittoriano Muttillo (University of L'Aquila, Italy)</li>
+				<li>Phuong T. Nguyen (University of L'Aquila, Italy)</li>
+				<li>James Pontes Miranda (CEA, France)</li>
+				<li>José Raúl Romero (University of Cordoba, Spain)</li>
+				<li>Riccardo Rubei (Mälardalen University, Sweden)</li>
+				<li>Adrian Rutle (Western Norway University of Applied Sciences, Norway)</li>
+				<li>Jonathan Silva Mercado (University of Luxembourg, Luxembourg)</li>
+				<li>
+					Daniel Strüber
+					(University of Gothenburg, Sweden; Radboud University Nijmegen,
+					Netherlands)
+				</li>
+				<li>Eugene Syriani (University of Montreal, Canada)</li>
+				<li>Gabriele Taentzer (Philipps-Universität Marburg, Germany)</li>
+				<li>
+					Marina Tropmann-Frick
+					(Hamburg University of Applied Sciences, Germany)
+				</li>
+				<li>Steffen Zschaler (King's College London, United Kingdom)</li>
+			</ul>
+
+		</div>
+	</section>
+
+
+	<!-- Contact -->
+	<section id="contact" class="main style3 secondary">
+		<div class="content">
+
+			<header>
+				<h2>Contact</h2>
+
+				<p>
+					If you have questions, contact us by email at:
+					<a href="mailto:mdeintelligence2026@easychair.org">
+						mdeintelligence2026@easychair.org
+					</a>
+				</p>
+			</header>
+
+		</div>
+	</section>
+
+
+	<!-- Footer -->
+	<footer id="footer"></footer>
+
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+</html>
 <!DOCTYPE HTML>
 <!--
 	Big Picture by HTML5 UP
