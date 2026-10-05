@@ -43,6 +43,39 @@
 
 		}
 
+	// Mobile nav toggle.
+		var $navToggle = $header.find('.nav-toggle');
+
+		var setNav = function(open) {
+			$body.toggleClass('is-nav-open', open);
+			$navToggle
+				.attr('aria-expanded', open ? 'true' : 'false')
+				.attr('aria-label', open ? 'Close menu' : 'Open menu');
+		};
+
+		$navToggle.on('click', function(event) {
+			event.stopPropagation();
+			setNav(!$body.hasClass('is-nav-open'));
+		});
+
+		$header.find('nav a').on('click', function() {
+			setNav(false);
+		});
+
+		$(document).on('click', function(event) {
+			if ($body.hasClass('is-nav-open') && !$(event.target).closest('#header').length)
+				setNav(false);
+		});
+
+		$(document).on('keydown', function(event) {
+			if (event.key === 'Escape')
+				setNav(false);
+		});
+
+		breakpoints.on('>medium', function() {
+			setNav(false);
+		});
+
 	// Fix: IE flexbox fix.
 		if (browser.name == 'ie') {
 
